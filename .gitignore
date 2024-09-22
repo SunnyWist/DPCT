@@ -1,0 +1,61 @@
+# Compiled source 
+*.pyc
+*.so
+*.so.*
+*.dll
+*.o
+*.a
+*.hpp.gch
+
+# Others
+.depend
+\#*
+*.flv
+*.FLV
+*.mov
+*.MOV
+*.avi
+*.AVI
+*.mp4
+*.MP4
+*.mkv
+*.MKV
+*.mp3
+*.MP3
+*.wmv
+*.WMV
+*.pdf
+*.PDF
+*.zip
+.git/
+auto/
+
+# checkpoint
+*.cptk.data-*
+*.cptk.index
+*.cptk.meta
+*.gif
+*.GIF
+*.csv
+
+# Python stuffs
+__pycache__/
+results/*/
+models/*/
+trains/*/
+gifs/*/
+
+# IDE
+.idea/
+.vscode/settings.json
+
+# specific to this project
+oldfile/
+legacy/
+train_data/*
+train_gifs/*
+outputs/
+old/
+wandb/
+envs/*/
+my_outputs/

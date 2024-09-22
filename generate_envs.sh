@@ -1,0 +1,1 @@
+xvfb-run python3 DPCT/TestGenerator.py

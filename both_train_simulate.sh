@@ -1,0 +1,1 @@
+python3 DPCT/TrainDriver.py && python3 DPCT/SimulateWithRayDriver.py

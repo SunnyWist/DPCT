@@ -1,0 +1,28 @@
+SIMULATE_WITH_ONE_ENV: False
+AGENT:
+  LST: [4, 8, 16, 32, 64, 128, 256]
+  SEP: False
+SIZE:
+  LST: [20, 40, 80, 160]
+  SEP: True
+DENSITY:
+  LST: [0.3, 0.65]
+  SEP: True
+WALL:
+  LST: [1, 10, 20]
+  SEP: True
+ID_NUM: 20
+ENVS_FOLDER       : "envs"
+ENV_FILES_FOLDER  : "env_files"
+RESULTS_FOLDER    : "results"
+MODELS_FOLDER     : "models"
+MODEL_NAME        : "Original"
+MODEL_TIMESTAMP   : ""
+MODEL_CONFIG_FILE : "config.yaml"
+NUMBER_OF_WORKERS : 7
+PRINT_INFO        : False
+RESUME_TESTING    : 1
+ALL_RESULTS_PICKLE_FILE: "all_results.pkl"
+ALL_RESULTS_CSV_FILE   : "all_results.csv"
+USE_NPZ           : True
+WITH_EP           : True
