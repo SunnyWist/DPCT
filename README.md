@@ -19,5 +19,5 @@
 ## How to change the parameters
 - Change the files in `configs/` directory
 
-## Credits
+## References
 - [PRIMAL2 - marmotlab](https://github.com/marmotlab/PRIMAL2)
